@@ -1,0 +1,42 @@
+.seo-entry {
+    background: #f4f5f0;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.seo-title input {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    padding: 0.5em 10px;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.seo-description textarea {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    line-height: 24px;
+    padding: 1%;
+    height: 100px;
+    width: 98%;
+}
+
+.input-seo label span {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    float: left;
+}
+
+.input-seo label.is-open span {
+    border-top: 0px solid black;
+    border-bottom: 5px solid black;
+}
+
+
